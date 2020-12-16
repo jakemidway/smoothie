@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header{
+    height: 1080px;
+    background-color: #fcac3b;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    padding: 66px 0 106px;
+    display: flex;
+    flex-direction: column;
+}
+.header__head-top{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 556px;
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__link{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}

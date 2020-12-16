@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <!-- Сюда подключаем стили -->
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Smoothie</title>
 </head>
 <body>
+
+
+
+    <!-- 1 всему ли нужно задовать класс? например а или н1. и если нет стилей для тэга, еужно ли им давать слассы
+    2 есть блок, есть название. не знаю как правельно задать вопрос. в общем: как название формируются? -->
 
 
     <header class="header">
@@ -29,33 +35,33 @@
 
 
             
-                                                                                        <!-- меню которое -- элемент headera.  -->
-            <nav class="header__menu">                                                  <!-- мы пишем зависемость от header, т.е. header__menu. Все понятно -->
-                <ul class="header__list">                                               <!-- header главный + list элемент nav - но мы не можем написать header__menu__list = значит header__list -->
-                    <li class="header__item">                                           <!-- аналогично! -->
-                        <a class="link header__link" href="#">Home</a>                  <!-- а вот тут вопрос! header__link может понадобиться вне header__menu. значи <a> незовисемый блок. -->
+                                                                                        <!-- меню которое -- элемент headera.  --> 
+            <!-- <nav class="header__menu">                                                  
+               <ul class="header__list">                                               
+                    <li class="header__item">                                          
+                        <a class="header__link" href="#">Home</a>                  
                     </li>
                     <li class="header__item">
-                        <a class="link header__link" href="#">Shop</a>                  <!-- если нам понадобится уникальная ссылка то можно использовать микс -->
+                        <a class="header__link" href="#">Shop</a>                 
                     </li>
                     <li class="header__item">
-                        <a class="link header__link" href="#">story</a>
+                        <a class="header__link" href="#">Story</a>
                     </li>
                     <li class="header__item">
-                        <a class="link header__link" href="#">About</a>
+                        <a class="header__link" href="#">About</a>
                     </li>
                     <li class="header__item">
-                        <a class="link header__link" href="#">Blog</a>
+                        <a class="header__link" href="#">Blog</a>
                     </li>
                     <li class="header__item">
-                        <a class="link header__link" href="#">Testimonails</a>
+                        <a class="header__link" href="#">Testimonails</a>
                     </li>
                 </ul>
-            </nav>
+            </nav> -->
 
 
                                                                                         <!-- замиксим!!!! -->
-            <nav class="menu header__menu">                                              
+            <!-- <nav class="menu header__menu">                                              
                 <ul class="menu__list header__list">
                     <li class="menu__list header__item">                                
                         <a class="link header__link" href="#">Home</a>                  
@@ -76,54 +82,42 @@
                         <a class="link header__link" href="#">Testimonails</a>
                     </li>
                 </ul>
-            </nav>
+            </nav> -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="logo"><a href=""><img src="" alt="logo"></a></div>
+            <div class="logo">
+                <a class="logo__link" href=""><img class="logo__picture" src="img/Logo.png" alt="picture logo"></a>
+            </div>
             
+            <div class="header-bar">
 
-            <div class="personal">
-                <ul>
-                    <li>
-                        <a href=""><img src="" alt=""></a>
-                    </li>
-                    <li >
-                        <a href=""><img src="" alt=""></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="" alt=""></a>
-                    </li>
-                </ul>
+                <div class="personal-bar">
+                    <ul class="personal-bar__list">
+                        <li class="personal-bar__item">
+                            <a class="personal-bar__link" href="#"><img class="personal-bar__img" src="" alt=""></a>
+                        </li>
+                        <li class="personal-bar__item">
+                            <a class="personal-bar__link" href="#"><img class="personal-bar__img" src="" alt=""></a>
+                        </li>
+                        <li class="personal-bar__item">
+                            <a class="personal-bar__link" href="#"><img class="personal-bar__img" src="" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="social-bar">
+                    <ul class="social-bar__list">
+                        <li class="social-bar__item">
+                            <a class="social-bar__link" href="#"><img class="social-bar__img" src="" alt=""></a>
+                        </li>
+                        <li >
+                            <a class="social-bar__link" href="#"><img class="social-bar__img" src="" alt=""></a>
+                        </li>
+                        <li>
+                            <a class="social-bar__link" href="#"><img class="social-bar__img" src="" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="social">
-                <ul>
-                    <li>
-                        <a href=""><img src="" alt=""></a>
-                    </li>
-                    <li >
-                        <a href=""><img src="" alt=""></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="" alt=""></a>
-                    </li>
-                </ul>
-            </div>
-
         </div>
 
 
