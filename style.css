@@ -5,26 +5,29 @@
 }
 .container{
     width: 1720px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .header{
     height: 1080px;
-    background-color: #fcac3b;
+    background-image: url(/img/header-bg-img.png);
     color: #fff;
     font-family: 'Mulish', sans-serif;
-    padding: 66px 0 106px;
+    
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .header__head-top{
+    position: relative;
     display: flex;
+    padding-top:  66px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 124px;
 }
 .menu{
     width: 556px;
     font-size: 16px;
-    border: 1px dotted red;
 }
 .menu__list{
     list-style: none;
@@ -38,32 +41,36 @@
 }
 
 .logo{
-    border: 1px dotted red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
-
 
 .header-bar{
     display: flex;
+    width: 418px;
+    justify-content: space-between;
 }
 
 .personal-bar{
     width: 171px;
-
-
-    border:1px dotted red;
+    
 }
 .personal-bar__list{
+    height: 100%;
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
-.personal-bar__item{
+    align-items:center;
+
     
 }
 
-
 .social-bar{
-    border:1px dotted red;
     width: 126px;
 }
 .social-bar__list{
@@ -104,3 +111,58 @@
     -ms-transform: translate(-60%, -50%);
     -o-transform: translate(-60%, -50%);
 }
+
+.btn{
+    width: 280px;
+    height: 70px;
+    padding: 0 35px 5px;
+    text-align: left;
+    background-color: #0aa566;
+    background-image: url(/img/Arrow.png);
+    background-repeat: no-repeat;
+    background-position: 84% 50%;  
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+.btn__text{
+    height: 100%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+.btn:hover{
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.smoothies{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 96px;
+}
+.title2{
+    color: #f7ae3b;
+    font-size: 50px;
+    font-weight: 800;
+}
+.smoothies__text{
+    width: 1010px;
+    padding: 48px 44px 64px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+}
+.smoothies__fave-cards{
+    display: flex;
+    width: 1010px;
+}
+
+
+
