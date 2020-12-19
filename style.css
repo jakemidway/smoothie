@@ -9,10 +9,8 @@
 }
 .header{
     height: 1080px;
-    background-image: url(/img/header-bg-img.png);
-    color: #fff;
+    background-image: url(img/header-bg-img.jpg);
     font-family: 'Mulish', sans-serif;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +116,7 @@
     padding: 0 35px 5px;
     text-align: left;
     background-color: #0aa566;
-    background-image: url(/img/Arrow.png);
+    background-image: url(img/Arrow.png);
     background-repeat: no-repeat;
     background-position: 84% 50%;  
     border: none;
@@ -146,6 +144,7 @@
     flex-direction: column;
     align-items:center;
     padding-top: 96px;
+    padding-bottom: 106px;
 }
 .title2{
     color: #f7ae3b;
@@ -161,8 +160,70 @@
 }
 .smoothies__fave-cards{
     display: flex;
-    width: 1010px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    width: 1008px;
+}
+.smoothies__card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    width: 252px;
+    height: 182px;
+    padding-top: 26px;
+    padding-bottom: 32px;
+    border: 1px solid #f7ae3b;
+}
+.smoothies__text-card{
+    padding-top: 26px;
+    color: #f2612d;
+    font-size: 25px;
+    font-weight: bold;
+}
+.smoothies__card_plant{
+    border-top: none;
+    border-left: none;
+}
+.smoothies__card_vegan{
+    border-top: none;
+}
+.smoothies__card_paleo{
+    border-top: none;
+}
+.smoothies__card_gluten{
+    border-top: none;
+    border-right: none;
+}
+.smoothies__card_corn{
+    border-bottom: none;
+    border-left: none;
+}
+.smoothies__card_soy{
+    border-bottom: none;
+}
+.smoothies__card_ayurvedic{
+    border-bottom: none;
+}
+.smoothies__card_love{
+    border-bottom: none;
+    border-right: none;
 }
 
 
 
+
+.about{
+    background-color: #18846c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.about__picture{
+    width:50%;
+    text-align: center;
+}
+.about__check{
+    width:50%;
+}
