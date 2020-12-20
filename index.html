@@ -17,7 +17,7 @@
     2 есть блок, есть название. не знаю как правельно задать вопрос. в общем: как название формируются? -->
 
 
-    <header class="header">
+    <header class="header font-text">
 
         <div class="header__head-top container">
             
@@ -126,7 +126,7 @@
         </div>
 
 
-        <button class="btn"><span class="btn__text">Shop now</span></button>
+        <button class="btn btn__firs"><span class="btn__text">Shop now</span></button>
         <!-- <h1>Organic</h1> позже скрою -->
     </header>
 
@@ -136,13 +136,13 @@
 
     <!-- #############################################################SMUZI########################################################## -->
 
-    <section class="smoothies">
+    <section class="smoothies font-text">
         <h2 class="title2">What are these smoothies?</h2>
         <p class="smoothies__text">A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes dairy products (milk, yogurt, ice-cream or cottage cheese), typically using a blender. Smoothies may be made using other ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar, stevia, or syrup), whey powder, plant milk, nuts, nut butter, seeds, tea, chocolate, herbal supplements, or nutritional supplements. </p>
         
         
         
-        <!-- Лучше сделать эту часть таблицей.  -->
+        <!-- Лучше сделать эту часть таблицей или гридами.  -->
         
         <div class="smoothies__fave-cards">
             <div class="smoothies__card smoothies__card_plant">
@@ -190,24 +190,26 @@
 
 
 
-    <section class="about">
+    <section class="about font-text">
         <div class="about__picture">
             <img src="img/two-botle.png" alt="two botle">
         </div>
         
-        <div>
-            <h2 class="title2">What makes Smoothie an awesome drink?</h2>
-            <ul>
-                <li>Crunchy Puuffs Texture</li>
-                <li>100 Colories per drink</li>
-                <li>4g Plant Protein</li>
-                <li>Good source of Magnesium & Vitamin B6</li>
-                <li>No Sugar in our Savory Flavors</li>
-                <li>Non-GMO, Vegan & Paleo</li>
-                <li>Gluten-Free & Gluten-Free</li>
-                <li>Corn-Free & Soy-Free</li>
+        <div class="about__check">
+            <h2 class="about__title">What makes Smoothie an <span class="text-vegan">awesome drink?</span></h2>
+            <ul class="about__list">
+                <li class="about__item">Crunchy Puuffs Texture</li>
+                <li class="about__item">100 Colories per drink</li>
+                <li class="about__item">4g Plant Protein</li>
+                <li class="about__item">Good source of Magnesium & Vitamin B6</li>
+                <li class="about__item">No Sugar in our Savory Flavors</li>
+                <li class="about__item">Non-GMO, Vegan & Paleo</li>
+                <li class="about__item">Gluten-Free & Gluten-Free</li>
+                <li class="about__item">Corn-Free & Soy-Free</li>
             </ul>
-            <button class="btn btn--gneen">About Organic Smoothie</button>
+            <button class="btn btn__second">
+                <span class="btn__text">About Organic Smoothie</span>
+            </button>
         </div>
     </section>
 
