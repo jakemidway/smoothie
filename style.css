@@ -129,7 +129,7 @@
 
 
 .btn{
-    height: 70px;
+    height: 60px;
     padding: 0 35px 5px;
     text-align: left;
     border: none;
@@ -140,7 +140,7 @@
     -ms-border-radius: 35px;
     -o-border-radius: 35px;    
 }
-.btn__firs{
+.btn__first{
     width: 280px;
     background-image: url(img/Arrow.png);
     background-repeat: no-repeat;
@@ -157,6 +157,15 @@
     background-color: #19816e;
     border: 2px solid #f8b231;
     background-position: 88% 50%; 
+}
+.btn-nocolor{
+    width: 204px;
+    background-image: url(img/Arrow-white.png);
+    background-repeat: no-repeat;
+    background-color: #0aa566;
+    background-position: 82% 50%;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0);   
 }
 .btn__text{
     height: 100%;
@@ -181,6 +190,12 @@
     font-size: 50px;
     font-weight: 800;
 }
+.title2__uppercase{
+    text-transform: uppercase;
+    color: #f2612d;
+}
+
+
 .smoothies__text{
     width: 1010px;
     padding: 48px 44px 64px;
@@ -341,3 +356,53 @@
     padding-bottom: 64px;
 }
 
+
+
+
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.story__foto{
+    width: 650px;
+    padding: 80px 0 160px 65px;
+}
+.story__main{
+    width: 650px;
+}
+.story__text{
+    line-height: 35px;
+    padding: 43px 140px 60px 0;
+    font-size: 18px;
+}
+
+
+
+.testimonials{
+    background-color: #6a2e1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-top: 115px;
+    padding-bottom: 78px;
+}
+
+.testimonials__main-block{
+    display: flex;
+    align-items:center;
+    padding-top: 126px;
+}
+.testimonials__text{
+    width: 524px;
+    padding-right: 54px;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.testimoials__avat{
+    display: block;
+}
