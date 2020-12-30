@@ -9,7 +9,6 @@
 .container{
     width: 1700px;
     padding: 0 10px;
-    border: 1px solid red;
 }
 .header{
     height: 1080px;
@@ -26,14 +25,10 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 124px;
-
-    /* border: 1px dotted blue; */
 }
 .menu{
     /* width: 556px; */
     font-size: 16px;
-    
-    border: 1px dotted blue;
 }
 .menu__list{
     list-style: none;
@@ -54,25 +49,16 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    
-    border: 1px dotted blue;
 }
 
 .header-bar{
     display: flex;
     width: 418px;
     justify-content: space-between;
-
-    border: 1px dotted blue;
 }
 
 .personal-bar{
     width: 171px;
-    
 }
 .personal-bar__list{
     height: 100%;
@@ -142,7 +128,7 @@
 }
 .btn__first{
     width: 280px;
-    background-image: url(img/Arrow.png);
+    background-image: url(img/Arrow-white.png);
     background-repeat: no-repeat;
     background-color: #0aa566;
     background-position: 84% 50%; 
@@ -150,7 +136,7 @@
 
 .btn__second{
     width: 380px;
-    background-image: url(img/Arrow.png);
+    background-image: url(img/Arrow-right.png);
     background-repeat: no-repeat;
     border: none;
     outline: none;
@@ -461,7 +447,7 @@
     position: absolute;
     top: 200px;
     height: 408px;
-    left: 0;
+    left: 10px;
     z-index: 3;
 }
 .blog__line{
@@ -485,11 +471,16 @@
 }
 .blog__title{
     margin-bottom: 16px;
+    padding-right: 46px;
 }
 .blog__text{
     font-size: 18px;
     padding-top: 36px;
     padding-left: 50px;
     line-height: 34px;
+    padding-right: 46px;
+}
+.blog__read-more{
+    display: inline;
 }
 
