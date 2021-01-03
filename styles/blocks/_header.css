@@ -1,0 +1,16 @@
+.header {
+  height: 1080px;
+  background-image: url(../../img/header-bg-img.jpg);
+  background-position: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__head-top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 66px;
+  padding-bottom: 124px;
+}
