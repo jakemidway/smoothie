@@ -9,7 +9,7 @@
 .container{
     width: 1700px;
     padding: 0 10px;
-}
+} 
 .header{
     height: 1080px;
     background-image: url(img/header-bg-img.jpg);
@@ -27,7 +27,7 @@
     padding-bottom: 124px;
 }
 .menu{
-    /* width: 556px; */
+    width: 556px;
     font-size: 16px;
 }
 .menu__list{
@@ -43,6 +43,19 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .logo{

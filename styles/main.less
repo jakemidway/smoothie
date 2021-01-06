@@ -1,20 +1,22 @@
-// out: ./main.css, compress: false, sourceMap: false
+// out: ./main.css, compress: false, sourceMap: false, sourseMap: true
+
 
 @import "./_fonts.less";   /*подключаем шрифты*/
+@import "./_variables.less"; /*переменные*/
 
-@import "./_variables.less";   /*подключаем переменные*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: @MuliRegular , sans-serif;
+html{
+    font-family: @MuliRegular, sans-serif;
     font-size: 10px;
 }
 a{
     text-decoration: none;
+    color: @main-color;
 }
 li{
     list-style: none;
@@ -26,3 +28,4 @@ li{
 /*---------blocks----------*/
 
 @import "./blocks/_header.less";
+@import "./blocks/_menu.less";

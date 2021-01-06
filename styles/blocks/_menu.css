@@ -1,0 +1,16 @@
+/*------------------------fonts---------------------------------------*/
+.menu {
+  font-size: 1.6rem;
+}
+.menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__item {
+  margin-right: 42px;
+}
+.menu__link {
+  text-transform: uppercase;
+  font-family: 'MuliBold';
+}

@@ -30,18 +30,19 @@
 }
 /*подключаем шрифты*/
 /*------------------------fonts---------------------------------------*/
-/*подключаем переменные*/
+/*переменные*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html {
   font-family: 'MuliRegular', sans-serif;
   font-size: 10px;
 }
 a {
   text-decoration: none;
+  color: #fff;
 }
 li {
   list-style: none;
@@ -56,10 +57,27 @@ li {
   align-items: center;
 }
 .header__head-top {
+  width: 1700px;
+  padding: 0 10px;
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 66px;
   padding-bottom: 124px;
+}
+.menu {
+  font-size: 1.6rem;
+}
+.menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__item {
+  margin-right: 42px;
+}
+.menu__link {
+  text-transform: uppercase;
+  font-family: 'MuliBold';
 }
