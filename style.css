@@ -43,33 +43,16 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .logo{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-
 .header-bar{
     display: flex;
     width: 418px;
     justify-content: space-between;
 }
-
 .personal-bar{
     width: 171px;
 }
@@ -78,11 +61,8 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items:center;
-
-    
+    align-items:center; 
 }
-
 .social-bar{
     width: 126px;
 }
@@ -127,6 +107,11 @@
 
 
 
+
+
+
+
+
 .btn{
     height: 60px;
     padding: 0 35px 5px;
@@ -139,7 +124,7 @@
     -ms-border-radius: 35px;
     -o-border-radius: 35px;    
 }
-.btn__first{
+.btn_first{
     width: 280px;
     background-image: url(img/Arrow-white.png);
     background-repeat: no-repeat;
@@ -147,7 +132,7 @@
     background-position: 84% 50%; 
 }
 
-.btn__second{
+.btn_second{
     width: 380px;
     background-image: url(img/Arrow-right.png);
     background-repeat: no-repeat;

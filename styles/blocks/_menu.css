@@ -1,5 +1,6 @@
 /*------------------------fonts---------------------------------------*/
 .menu {
+  width: 556px;
   font-size: 1.6rem;
 }
 .menu__list {
@@ -12,5 +13,5 @@
 }
 .menu__link {
   text-transform: uppercase;
-  font-family: 'MuliBold';
+  font-family: 'MuliBold', sans-serif;
 }

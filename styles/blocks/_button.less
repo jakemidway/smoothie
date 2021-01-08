@@ -1,0 +1,32 @@
+// main ./../main.less
+
+@import "../_variables.less";
+
+.button{
+    height: 60px;
+    padding: 0 35px 5px;
+    text-align: left;
+    border: none;
+    border-radius: 35px;
+    background-image: url(../../img/Arrow-white.png);
+    background-repeat: no-repeat;
+    background-position: 84% 50%;
+    transition: all 200ms;
+    &:hover{
+        transform: translateY(-1px);
+        box-shadow: 0px 2px 2px;
+    } 
+    &_first{
+        width: 280px;
+        background-color: @accent-color-1;
+    }
+    &_second{
+        width: 380px;
+        background-color: @accent-color-2;
+        border: 2px solid @accent-color-3;
+    }
+    &__text{
+        font-size: 2.1rem;
+        color: @main-color;
+    }
+}

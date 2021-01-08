@@ -1,0 +1,23 @@
+/*------------------------fonts---------------------------------------*/
+.social {
+  width: 126px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.social__item {
+  position: relative;
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.social__img {
+  position: relative;
+  display: block;
+  right: -50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 18px;
+  filter: invert(1);
+}

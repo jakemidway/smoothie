@@ -66,7 +66,49 @@ li {
   padding-top: 66px;
   padding-bottom: 124px;
 }
+@media (max-width: 1720px) {
+  .header__head-top {
+    width: 100%;
+  }
+}
+.header__head-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.header__personal-bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__personal-bar::after {
+  display: block;
+  content: ' ';
+  width: 50px;
+  height: 2px;
+  background-color: #ffd68f;
+  margin: 0 36px 0 0;
+}
+.header__item-personal-bar {
+  margin-right: 45px;
+}
+.header__basket {
+  position: relative;
+}
+.header__basket-counter {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: -11px;
+  right: -14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .menu {
+  width: 556px;
   font-size: 1.6rem;
 }
 .menu__list {
@@ -79,5 +121,60 @@ li {
 }
 .menu__link {
   text-transform: uppercase;
-  font-family: 'MuliBold';
+  font-family: 'MuliBold', sans-serif;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.social {
+  width: 126px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.social__item {
+  position: relative;
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.social__img {
+  position: relative;
+  display: block;
+  right: -50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 18px;
+  filter: invert(1);
+}
+.button {
+  height: 60px;
+  padding: 0 35px 5px;
+  text-align: left;
+  border: none;
+  border-radius: 35px;
+  background-image: url(../../img/Arrow-white.png);
+  background-repeat: no-repeat;
+  background-position: 84% 50%;
+  transition: all 200ms;
+}
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0px 2px 2px;
+}
+.button_first {
+  width: 280px;
+  background-color: #0aa566;
+}
+.button_second {
+  width: 380px;
+  background-color: #19816e;
+  border: 2px solid #f8b231;
+}
+.button__text {
+  font-size: 2.1rem;
+  color: #fff;
 }

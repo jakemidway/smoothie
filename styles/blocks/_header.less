@@ -1,5 +1,7 @@
 // main ./../main.less
 
+@import "../_variables.less";
+
 .header{
     height: 1080px;
     background-image: url(../../img/header-bg-img.jpg);
@@ -16,5 +18,44 @@
         align-items: center;
         padding-top: 66px;
         padding-bottom: 124px;
+        @media (max-width: 1720px) {
+            width: 100%;
+        }
+    }
+    &__head-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__personal-bar{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &::after{
+            display: block;
+            content: ' ';
+            width: 50px;
+            height: 2px;
+            background-color: #ffd68f;
+            margin: 0 36px 0 0;
+        }
+    }
+    &__item-personal-bar{
+        margin-right: 45px;
+    }
+    &__basket{
+        position: relative;
+    }
+    &__basket-counter{
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        border-radius: 50%;
+        top: -11px;
+        right: -14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
