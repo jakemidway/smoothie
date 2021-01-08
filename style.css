@@ -104,14 +104,6 @@
     -ms-transform: translate(-60%, -50%);
     -o-transform: translate(-60%, -50%);
 }
-
-
-
-
-
-
-
-
 .btn{
     height: 60px;
     padding: 0 35px 5px;
@@ -131,7 +123,6 @@
     background-color: #0aa566;
     background-position: 84% 50%; 
 }
-
 .btn_second{
     width: 380px;
     background-image: url(img/Arrow-right.png);
@@ -142,6 +133,10 @@
     border: 2px solid #f8b231;
     background-position: 88% 50%; 
 }
+
+
+
+
 .btn-nocolor{
     width: 204px;
     background-image: url(img/Arrow-white.png);
@@ -160,6 +155,19 @@
 .btn:hover{
     box-shadow: 0px 0px 5px #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .smoothies{

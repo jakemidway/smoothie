@@ -3,6 +3,7 @@
 @import "../_variables.less";
 
 .header{
+    position: relative;
     height: 1080px;
     background-image: url(../../img/header-bg-img.jpg);
     background-position:50%;
@@ -21,10 +22,26 @@
         @media (max-width: 1720px) {
             width: 100%;
         }
+        @media (max-width: 1500px) {
+            justify-content: flex-end;
+        }
+        @media (max-width: 1200px) {
+            // display: none;
+            // background-color: @accent-color-1;
+            // position: fixed;
+            // top: 0;
+            // right: 0;
+            // bottom: 0;
+            // left: 0;
+            // z-index: 3;
+        }
     }
     &__head-bar{
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1200px) {
+            display: none;
+        }
     }
     &__personal-bar{
         list-style: none;
@@ -57,5 +74,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    &__burger-btn{
+        display: none;
+        position: fixed;
+        border: none;
+        background-color: transparent;
+        @media (min-width: 768px) and (max-width: 1500px){
+            display: block;
+            top: 42px;
+            left: 40px;
+        }
+        @media (max-width: 768px){
+            display: block;
+            right: 40px;
+            top: 42px;
+        }
     }
 }

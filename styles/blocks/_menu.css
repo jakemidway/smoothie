@@ -3,6 +3,11 @@
   width: 556px;
   font-size: 1.6rem;
 }
+@media (max-width: 1500px) {
+  .menu {
+    display: none;
+  }
+}
 .menu__list {
   list-style: none;
   display: flex;
