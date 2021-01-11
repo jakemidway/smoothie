@@ -1,0 +1,54 @@
+// main ./../main.less
+
+@import '../_variables.less';
+
+.testimonials{
+    position: relative;
+    background-color: #6a2e1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: @main-color;
+    padding-top: 115px;
+    padding-bottom: 217px;
+    &::before{
+        display: block;
+        position: absolute;
+        height: 400px;
+        line-height: 400px;
+        text-align: center;
+        font-family: @MuliExtraBold;
+        content: 'Sarah A';
+        color: #5b2310;
+        font-size: 200px;
+        font-weight: 800;
+        left: 20%;
+        word-spacing: -4px;
+    }
+    &__main-block{
+        position: relative;
+        display: flex;
+        align-items:center;
+        padding-top: 126px;
+    }
+    &__text{
+        width: 524px;
+        padding-right: 54px;
+        font-size: 18px;
+        line-height: 36px;
+        text-align: center;
+    }
+    &__cite{
+        color: #f7ae3b;
+    }
+    &__avat{
+        // display: block;  по ходу не нужно. под влексами, строчные ведут себя как блоки
+    }
+    &__button-for-right-and-left{
+        position: absolute;
+        bottom: 74px;
+    }
+    &__btn:first-child{
+        margin-right: 96px;
+    }
+}

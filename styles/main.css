@@ -416,3 +416,50 @@ a {
   font-size: 50px;
   font-weight: 800;
 }
+.testimonials {
+  position: relative;
+  background-color: #6a2e1b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding-top: 115px;
+  padding-bottom: 217px;
+}
+.testimonials::before {
+  display: block;
+  position: absolute;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  font-family: 'MuliExtraBold';
+  content: 'Sarah A';
+  color: #5b2310;
+  font-size: 200px;
+  font-weight: 800;
+  left: 20%;
+  word-spacing: -4px;
+}
+.testimonials__main-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 126px;
+}
+.testimonials__text {
+  width: 524px;
+  padding-right: 54px;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+}
+.testimonials__cite {
+  color: #f7ae3b;
+}
+.testimonials__button-for-right-and-left {
+  position: absolute;
+  bottom: 74px;
+}
+.testimonials__btn:first-child {
+  margin-right: 96px;
+}
