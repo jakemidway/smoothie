@@ -1,0 +1,65 @@
+// main ./../main.less
+
+@import '../_variables.less';
+
+.about{
+    position: relative;
+    background-color: @accent-color-2a;
+    color: @main-color;
+    display: flex;
+    justify-content: flex-start;
+    &__picture{
+        position: relative;
+        top: 90px;
+        width:50%;
+        text-align: center;
+    }
+    &__title{
+        font-family: @MuliExtraBold;
+        font-size: 5rem;
+        padding-bottom: 40px;
+    }
+    &__accent-text{
+        color: @accent-color-5;
+        &::after{
+            content: '';
+            display: block;
+            width: 430px;
+            height: 13px;
+            background-image: url(../../img/Line.png);
+            background-size: 100%;
+            transform: translateX(55px);
+            -webkit-transform: translateX(55px);
+            -moz-transform: translateX(55px);
+            -ms-transform: translateX(55px);
+            -o-transform: translateX(55px);
+        }
+    }
+    &__check{
+        width: 630px;
+        padding: 98px 16px 94px;
+    }
+    &__list{
+        list-style: none;
+        line-height: 40px;
+        font-family: @MuliRegular;
+        font-size: 2.1rem;
+        padding-bottom: 54px;
+    }
+    &__item{
+        padding-left: 40px;
+        position: relative;
+        &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0px;
+            top: 12px;
+            width: 18px;
+            height: 18px;
+            padding-right: 20px;
+            background-image: url(../../img/1.png);
+            background-repeat: no-repeat;
+        }
+    }
+}
