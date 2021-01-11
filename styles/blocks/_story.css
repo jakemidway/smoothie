@@ -1,0 +1,25 @@
+/*------------------------fonts---------------------------------------*/
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.story__foto {
+  width: 650px;
+  padding: 80px 0 160px 65px;
+}
+.story__main {
+  width: 650px;
+}
+.story__text {
+  line-height: 35px;
+  padding: 43px 140px 60px 0;
+  font-size: 18px;
+}
+.story__title {
+  font-family: 'MuliExtraBold';
+  color: #f7ae3b;
+  font-size: 50px;
+  font-weight: 800;
+}
