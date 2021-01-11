@@ -23,6 +23,16 @@
   left: 20%;
   word-spacing: -4px;
 }
+.testimonials__title {
+  font-family: 'MuliExtraBold';
+  color: #f7ae3b;
+  font-size: 50px;
+  font-weight: 800;
+}
+.testimonials__uppercase {
+  text-transform: uppercase;
+  color: #f2612d;
+}
 .testimonials__main-block {
   position: relative;
   display: flex;

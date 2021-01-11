@@ -1,0 +1,63 @@
+// main ./../main.less
+
+@import '../_variables.less';
+
+.blog{
+    position: relative;
+    width: 1220px;
+    margin: auto;
+    padding: 104px 10px 200px;
+    &::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    &__title{
+        font-family: @MuliExtraBold;
+        color: #f7ae3b;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    &__title3{
+        font-size: 30px;
+        font-weight: 700;
+        word-spacing: -4px;
+        color: #f2612d;
+        margin-bottom: 16px;
+        padding-right: 46px;
+    }
+    &__main-elem{
+        float: right;
+        padding-top: 115px;
+        width:50%;
+    }
+    &__img{
+        position: absolute;
+        top: 200px;
+        height: 408px;
+        left: 10px;
+        z-index: 3;
+    }
+    &__line{
+        background-color: #f7ae3b;
+        width: 200%;
+        height: 14px;
+        transform: translateX(-50%);
+        border-radius: 7px;
+        margin-bottom: 44px;
+    }
+    &_time{
+        font-size: 16px;
+    }
+    &__text{
+        font-size: 18px;
+        padding-top: 36px;
+        padding-left: 50px;
+        line-height: 34px;
+        padding-right: 46px;
+    }
+    &__read-more{
+        display: inline;
+        color: #000;
+    }
+}  
