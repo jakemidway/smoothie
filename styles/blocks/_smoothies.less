@@ -1,0 +1,74 @@
+// main ./../main.less
+
+@import '../_variables.less';
+
+.smoothies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 106px;
+    &__title{
+        color: @accent-color-3;
+        font-family: @MuliExtraBold;
+        font-size: 5rem;
+    }
+    &__text{
+        width: 1010px;
+        padding: 48px 44px 64px;
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+    &__fave-cards{
+        width: 1008px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card{
+        width: 252px;
+        height: 182px;
+        padding-top: 26px;
+        padding-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        border: 1px solid @accent-color-4;
+    }
+    &__text-card{
+        padding-top: 26px;
+        color: @accent-color-4;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    &__card_plant{
+        border-top: none;
+        border-left: none;
+    }
+    &__card_vegan{
+        border-top: none;
+    }
+    &__card_paleo{
+        border-top: none;
+    }
+    .smoothies__card_gluten{
+        border-top: none;
+        border-right: none;
+    }
+    &__card_corn{
+        border-bottom: none;
+        border-left: none;
+    }
+    &__card_soy{
+        border-bottom: none;
+    }
+    &__card_ayurvedic{
+        border-bottom: none;
+    }
+    &__card_love{
+        border-bottom: none;
+        border-right: none;
+    }
+}

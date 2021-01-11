@@ -146,6 +146,7 @@ li {
   position: fixed;
   border: none;
   background-color: transparent;
+  transition: all 200ms;
 }
 @media (min-width: 768px) and (max-width: 1500px) {
   .header__burger-btn {
@@ -161,26 +162,8 @@ li {
     top: 42px;
   }
 }
-.menu {
-  width: 556px;
-  font-size: 1.6rem;
-}
-@media (max-width: 1500px) {
-  .menu {
-    display: none;
-  }
-}
-.menu__list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-.menu__item {
-  margin-right: 42px;
-}
-.menu__link {
-  text-transform: uppercase;
-  font-family: 'MuliBold', sans-serif;
+.header__burger-btn:hover {
+  filter: drop-shadow(0px 2px 0px);
 }
 .logo {
   position: absolute;
@@ -234,7 +217,81 @@ li {
   background-color: #19816e;
   border: 2px solid #f8b231;
 }
+.button__nocolor {
+  width: 204px;
+  border: 2px solid #0aa566;
+}
 .button__text {
   font-size: 2.1rem;
   color: #fff;
+}
+.smoothies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 96px;
+  padding-bottom: 106px;
+}
+.smoothies__title {
+  color: #f8b231;
+  font-family: 'MuliExtraBold';
+  font-size: 5rem;
+}
+.smoothies__text {
+  width: 1010px;
+  padding: 48px 44px 64px;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 35px;
+}
+.smoothies__fave-cards {
+  width: 1008px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.smoothies__card {
+  width: 252px;
+  height: 182px;
+  padding-top: 26px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid #f2612d;
+}
+.smoothies__text-card {
+  padding-top: 26px;
+  color: #f2612d;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.smoothies__card_plant {
+  border-top: none;
+  border-left: none;
+}
+.smoothies__card_vegan {
+  border-top: none;
+}
+.smoothies__card_paleo {
+  border-top: none;
+}
+.smoothies .smoothies__card_gluten {
+  border-top: none;
+  border-right: none;
+}
+.smoothies__card_corn {
+  border-bottom: none;
+  border-left: none;
+}
+.smoothies__card_soy {
+  border-bottom: none;
+}
+.smoothies__card_ayurvedic {
+  border-bottom: none;
+}
+.smoothies__card_love {
+  border-bottom: none;
+  border-right: none;
 }
