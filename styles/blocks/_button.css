@@ -17,17 +17,18 @@
 .button_first {
   width: 280px;
   background-color: #0aa566;
-  font-size: 2.1rem;
-  color: #fff;
 }
 .button_second {
   width: 380px;
   background-color: inherit;
   border: 2px solid #f8b231;
-  font-size: 2.1rem;
-  color: #fff;
 }
 .button_nocolor {
+  background-color: inherit;
   width: 204px;
-  border: 2px solid #0aa566;
+  border: 2px solid #fff;
+}
+.button__text {
+  font-size: 2.1rem;
+  color: #fff;
 }

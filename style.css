@@ -133,10 +133,6 @@
     border: 2px solid #f8b231;
     background-position: 88% 50%; 
 }
-
-
-
-
 .btn-nocolor{
     width: 204px;
     background-image: url(img/Arrow-white.png);
@@ -258,6 +254,10 @@
 
 
 
+
+
+
+
 .about{
     position: relative;
     background-color: #18846c;
@@ -317,6 +317,9 @@
     -ms-transform: translateX(55px);
     -o-transform: translateX(55px);
 }
+
+
+
 
 .product{
     display: flex;

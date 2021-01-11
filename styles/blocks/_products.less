@@ -1,0 +1,42 @@
+// main ./../main.less
+
+@import "../_variables.less";
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    color: @main-color;
+    &__card{
+        padding-top: 128px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        flex-grow: 1;
+    }
+    &__card_dark{
+        background-color: #622d14;
+    }
+    &__card_vegan{
+        background-color: #148774;
+    }
+    &__card_lemon{
+        background-color: #f7ac3a;
+    }
+    &__card_turmeric{
+        background-color: #c4471a;
+    }
+    &__image{
+        padding-bottom: 30px;
+    }
+    &__name{
+        font-family: @MuliBold;
+        font-size: 2.2rem;
+        line-height: 44px;
+    }
+    &__ml{
+        font-size: 1.8rem;
+        font-style: italic;
+        padding-bottom: 64px;
+    }
+}

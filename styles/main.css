@@ -208,19 +208,20 @@ a {
 .button_first {
   width: 280px;
   background-color: #0aa566;
-  font-size: 2.1rem;
-  color: #fff;
 }
 .button_second {
   width: 380px;
   background-color: inherit;
   border: 2px solid #f8b231;
-  font-size: 2.1rem;
-  color: #fff;
 }
 .button_nocolor {
+  background-color: inherit;
   width: 204px;
-  border: 2px solid #0aa566;
+  border: 2px solid #fff;
+}
+.button__text {
+  font-size: 2.1rem;
+  color: #fff;
 }
 .smoothies {
   display: flex;
@@ -352,4 +353,42 @@ a {
   padding-right: 20px;
   background-image: url(../../img/1.png);
   background-repeat: no-repeat;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.products__card {
+  padding-top: 128px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.products__card_dark {
+  background-color: #622d14;
+}
+.products__card_vegan {
+  background-color: #148774;
+}
+.products__card_lemon {
+  background-color: #f7ac3a;
+}
+.products__card_turmeric {
+  background-color: #c4471a;
+}
+.products__image {
+  padding-bottom: 30px;
+}
+.products__name {
+  font-family: 'MuliBold';
+  font-size: 2.2rem;
+  line-height: 44px;
+}
+.products__ml {
+  font-size: 1.8rem;
+  font-style: italic;
+  padding-bottom: 64px;
 }
