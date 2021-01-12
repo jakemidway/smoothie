@@ -1,0 +1,57 @@
+// main ./../main.less
+
+@import '../_variables.less';
+
+.footer{
+    background-color: #f4ad3d;
+    &__top{
+        position: relative;
+        padding: 80px 0 90px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__logo{
+        position: absolute;
+        top: 132px;
+        left: 102px;
+    }
+    &__column{
+        color: #6d450c;
+        font-family: @MuliBold;
+        font-size: 1.8rem;
+        &_info{
+            margin-right: 146px;
+        }
+        &_label{
+            margin-right: 166px;
+        }
+        &_contacts{
+            margin-right: 100px;
+        }
+    }
+    &__title{
+        font-family: @MuliExtraBold;
+        font-size: 2.6rem;
+        color: @main-color;
+        margin-bottom: 42px;
+    }
+    &__list-info{
+        list-style: none;
+    }
+    &__item-info{
+        line-height: 35px;
+    }
+    &__link{
+        color: #6d450c;
+    }
+    &__input{
+        width: 495px;
+        height: 60px;
+        border: none;
+        border-radius: 30px;
+    }
+    &__copyrate{
+        background-color: #6f2d1d;
+    }
+
+}

@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 10px 0;
 }
 .instagram__title {
   color: #0aa566;
