@@ -182,13 +182,7 @@
     text-transform: uppercase;
     color: #f2612d;
 }
-.title3{
-    font-size: 30px;
-    font-weight: 700;
-    word-spacing: -4px;
-    color: #f2612d;
 
-}
 
 
 .smoothies__text{
@@ -357,10 +351,6 @@
     font-style: italic;
     padding-bottom: 64px;
 }
-
-
-
-
 .story{
     display: flex;
     justify-content: center;
@@ -379,6 +369,13 @@
     padding: 43px 140px 60px 0;
     font-size: 18px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -481,6 +478,12 @@
 .blog__title{
     margin-bottom: 16px;
     padding-right: 46px;
+}
+.title3{
+    font-size: 30px;
+    font-weight: 700;
+    word-spacing: -4px;
+    color: #f2612d;
 }
 .blog__text{
     font-size: 18px;
