@@ -7,12 +7,21 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    &_footer{
+        margin-right: 52px;
+        margin-left: 21px;
+    }
     &__item{
         position: relative;
-        background-color: @main-color;
-        width: 35px;
-        height: 35px;
-        border-radius: 50%;
+        &_header{
+            border-radius: 50%;
+            background-color: @main-color;
+            width: 35px;
+            height: 35px;
+        }
+        &_footer{
+            margin-left: 23px;
+        }
     }
     &__img{
         position: relative;
@@ -21,7 +30,9 @@
         top: 50%;
         transform: translate(-50%, -50%);
         height: 18px;
-        filter: invert(1);
+        &_header{
+            filter: invert(1);
+        }
     }
 
 }

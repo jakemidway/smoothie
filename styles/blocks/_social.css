@@ -5,12 +5,21 @@
   display: flex;
   justify-content: space-between;
 }
+.social_footer {
+  margin-right: 52px;
+  margin-left: 21px;
+}
 .social__item {
   position: relative;
+}
+.social__item_header {
+  border-radius: 50%;
   background-color: #fff;
   width: 35px;
   height: 35px;
-  border-radius: 50%;
+}
+.social__item_footer {
+  margin-left: 23px;
 }
 .social__img {
   position: relative;
@@ -19,5 +28,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   height: 18px;
+}
+.social__img_header {
   filter: invert(1);
 }

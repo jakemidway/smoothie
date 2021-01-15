@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -50,20 +48,28 @@
                         <div class="header__basket-counter"><span class="header__number-counter">0</span></div>
                     </li>
                 </ul>
+
+
                 <ul class="social">
-                    <li class="social__item">
-                        <a class="social__link" href="#"><img class="social__img social-bar__img-facebook"
-                                src="img/Facebook.png" alt="facebook"></a>
+                    <li class="social__item social__item_header">
+                        <a class="social__link" href="#"><img
+                                class="social__img social__img_header  social-bar__img-facebook" src="img/Facebook.png"
+                                alt="facebook"></a>
                     </li>
-                    <li class="social__item">
-                        <a class="social__link" href="#"><img class="social__img social-bar__img-pinterest"
-                                src="img/Pinterest.png" alt="Pinterest"></a>
+                    <li class="social__item social__item_header">
+                        <a class="social__link" href="#"><img
+                                class="social__img social__img_header social-bar__img-pinterest" src="img/Pinterest.png"
+                                alt="Pinterest"></a>
                     </li>
-                    <li class="social__item">
-                        <a class="social__link" href="#"><img class="social__img social-bar__img-instagram"
-                                src="img/Instagram.png" alt="Instagram"></a>
+                    <li class="social__item social__item_header">
+                        <a class="social__link" href="#"><img
+                                class="social__img social__img_header social-bar__img-instagram" src="img/Instagram.png"
+                                alt="Instagram"></a>
                     </li>
                 </ul>
+
+
+
             </div>
         </div>
 
@@ -285,14 +291,14 @@
 
     <section class="instagram">
         <h3 class="instagram__title">ashasuperfoods</h3>
-            <!-- тут будут карточки, пока не знаю как сделаю -->
+        <!-- тут будут карточки, пока не знаю как сделаю -->
         <div class="instagram__gallery">
-            <div class="instagram__image"><img class="instagram__img"src="./img/Img-inst1.png"* alt="i1"></div>
-            <div class="instagram__image"><img class="instagram__img"src="./img/Img-inst2.png"* alt="i1"></div>
-            <div class="instagram__image"><img class="instagram__img"src="./img/Img-inst3.png"* alt="i1"></div>
-            <div class="instagram__image"><img class="instagram__img"src="./img/Img-inst4.png"* alt="i1"></div>
-            <div class="instagram__image"><img class="instagram__img"src="./img/Img-inst5.png"* alt="i1"></div>
-        </img>
+            <div class="instagram__image"><img class="instagram__img" src="./img/Img-inst1.png" * alt="i1"></div>
+            <div class="instagram__image"><img class="instagram__img" src="./img/Img-inst2.png" * alt="i1"></div>
+            <div class="instagram__image"><img class="instagram__img" src="./img/Img-inst3.png" * alt="i1"></div>
+            <div class="instagram__image"><img class="instagram__img" src="./img/Img-inst4.png" * alt="i1"></div>
+            <div class="instagram__image"><img class="instagram__img" src="./img/Img-inst5.png" * alt="i1"></div>
+            </img>
     </section>
 
 
@@ -302,8 +308,8 @@
     <footer class="footer">
 
         <div class="footer__top">
-            
-            
+
+
             <div class="footer__logo">
                 <img src="./img/Logo.png" alt="logo">
             </div>
@@ -333,29 +339,37 @@
 
             <div class="footer__column footer__column_contacts">
                 <h3 class="footer__title">Don't miss out!</h3>
-                
-                <input class="footer__input" type="email">
-                <div>
-                    <span>follow us</span>
-                    <ul>
-                        <li><a href="#"><img src="" alt="facebook"></a></li>
-                        <li><a href="#"><img src="" alt="pin"></a></li>
-                        <li><a href="#"><img src="" alt="instagram"></a></li>
+
+                <input class="footer__input" type="email" value="Subscribe to our newsletter">
+                <div class="footer__follow">
+                    <span class="footer__text-follow">FOLLOW US</span>
+                    <ul class="social social_footer">
+                        <li class="social__item social__item_footer">
+                            <a class="social__link" href="#"><img class="social__img social-bar__img-facebook"
+                                    src="img/Facebook.png" alt="facebook"></a>
+                        </li>
+                        <li class="social__item social__item_footer">
+                            <a class="social__link" href="#"><img class="social__img social-bar__img-pinterest"
+                                    src="img/Pinterest.png" alt="Pinterest"></a>
+                        </li>
+                        <li class="social__item social__item_footer">
+                            <a class="social__link" href="#"><img class="social__img social-bar__img-instagram"
+                                    src="img/Instagram.png" alt="Instagram"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
- 
- 
+
+
         </div>
- 
- 
- 
- 
- 
+
+
+
+
+
         <div class="footer__copyrate">
             <span>© 2020. All Rights Reserved.</span>
-            <span>Go top</span>
-            <button><a href="#"><img src="" alt="button-up"></a></button>
+            <button class="footer__btn"><a href="#"><img src="./img/Holder.png" alt="button-up"></a></button>
         </div>
     </footer>
 

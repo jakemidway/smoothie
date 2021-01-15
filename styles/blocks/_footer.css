@@ -45,9 +45,60 @@
 .footer__input {
   width: 495px;
   height: 60px;
+  padding-left: 60px;
+  margin-bottom: 25px;
   border: none;
-  border-radius: 30px;
+  border-radius: 38px;
+  background-image: url(../../img/mail.png);
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  color: #6d450c;
+}
+.footer__follow {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.footer__text-follow {
+  position: relative;
+}
+.footer__text-follow::after {
+  display: block;
+  content: '';
+  width: 48px;
+  height: 43px;
+  left: -62px;
+  top: -18px;
+  background-image: url(../../img/Arrow.png);
+  background-repeat: no-repeat;
+  position: absolute;
 }
 .footer__copyrate {
+  position: relative;
+  padding: 22px 0;
+  font-size: 1.3rem;
+  color: #af8a82;
   background-color: #6f2d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 100px;
+  top: -25px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2662f;
+}
+.footer__btn::after {
+  position: absolute;
+  color: #fff;
+  font-size: 1.6rem;
+  content: 'Go top';
+  left: -60px;
+  top: 45px;
 }
