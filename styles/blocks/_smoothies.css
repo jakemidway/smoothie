@@ -11,6 +11,11 @@
   font-family: 'MuliExtraBold';
   font-size: 5rem;
 }
+@media (max-width: 740px) {
+  .smoothies__title {
+    font-size: 3rem;
+  }
+}
 .smoothies__text {
   width: 1010px;
   padding: 48px 44px 64px;
@@ -18,11 +23,21 @@
   font-size: 1.8rem;
   line-height: 35px;
 }
+@media (max-width: 1010px) {
+  .smoothies__text {
+    width: 100%;
+  }
+}
 .smoothies__fave-cards {
   width: 1008px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media (max-width: 1008px) {
+  .smoothies__fave-cards {
+    width: 100%;
+  }
 }
 .smoothies__card {
   width: 252px;

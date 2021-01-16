@@ -94,7 +94,7 @@
 }
 .header__burger-btn {
   display: none;
-  position: fixed;
+  position: absolute;
   border: none;
   background-color: transparent;
   transition: all 200ms;

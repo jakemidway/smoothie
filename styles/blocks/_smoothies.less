@@ -12,6 +12,9 @@
         color: @accent-color-3;
         font-family: @MuliExtraBold;
         font-size: 5rem;
+        @media (max-width: 740px) {
+            font-size: 3rem;
+        }
     }
     &__text{
         width: 1010px;
@@ -19,12 +22,18 @@
         text-align: center;
         font-size: 1.8rem;
         line-height: 35px;
+        @media (max-width: 1010px) {
+            width: 100%;
+        }
     }
     &__fave-cards{
         width: 1008px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media (max-width: 1008px) {
+            width: 100%;
+        }
     }
     &__card{
         width: 252px;
