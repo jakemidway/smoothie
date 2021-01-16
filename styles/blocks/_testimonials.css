@@ -23,6 +23,11 @@
   left: 20%;
   word-spacing: -4px;
 }
+@media (max-width: 1024px) {
+  .testimonials::before {
+    display: none;
+  }
+}
 .testimonials__title {
   font-family: 'MuliExtraBold';
   color: #f7ae3b;

@@ -7,9 +7,21 @@
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
+    @media (max-width:1365px) {
+        flex-direction: row;
+    }
     &__foto{
         width: 650px;
         padding: 80px 0 160px 65px;
+        @media (max-width:1365px) {
+            margin-right: 26px;
+            padding-top: 120px;
+        }
+    }
+    &__img{
+        @media (max-width:1365px) {
+            height: 400px;
+        }
     }
     &__main{
         width: 650px;

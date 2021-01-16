@@ -7,6 +7,9 @@
     width: 1220px;
     margin: auto;
     padding: 104px 10px 200px;
+    @media (max-width: 1220px) {
+        width: 100%;
+    }
     &::after{
         content: '';
         display: block;
@@ -30,6 +33,15 @@
         float: right;
         padding-top: 115px;
         width:50%;
+        @media (max-width: 1220px) {
+            padding-top: 40px;
+        }
+        @media (max-width: 920px) {
+            width: 700px;
+        }
+        @media (max-width: 768px) {
+            float: none;
+        }
     }
     &__img{
         position: absolute;
@@ -37,6 +49,13 @@
         height: 408px;
         left: 10px;
         z-index: 3;
+        @media (max-width: 1220px) {
+            height: 306px;
+            top: 254px;
+        }
+        @media (max-width: 920px) {
+            display: none;
+        }
     }
     &__line{
         background-color: #f7ae3b;

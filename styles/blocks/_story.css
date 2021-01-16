@@ -5,9 +5,25 @@
   align-items: center;
   flex-direction: row-reverse;
 }
+@media (max-width: 1365px) {
+  .story {
+    flex-direction: row;
+  }
+}
 .story__foto {
   width: 650px;
   padding: 80px 0 160px 65px;
+}
+@media (max-width: 1365px) {
+  .story__foto {
+    margin-right: 26px;
+    padding-top: 120px;
+  }
+}
+@media (max-width: 1365px) {
+  .story__img {
+    height: 400px;
+  }
 }
 .story__main {
   width: 650px;

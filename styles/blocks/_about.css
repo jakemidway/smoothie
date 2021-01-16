@@ -6,11 +6,22 @@
   display: flex;
   justify-content: flex-start;
 }
+@media (max-width: 1400px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .about__picture {
   position: relative;
   top: 90px;
   width: 50%;
   text-align: center;
+}
+@media (max-width: 1400px) {
+  .about__picture {
+    display: none;
+  }
 }
 .about__title {
   font-family: 'MuliExtraBold';
@@ -36,6 +47,13 @@
 .about__check {
   width: 630px;
   padding: 98px 16px 94px;
+}
+@media (max-width: 1400px) {
+  .about__check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .about__list {
   list-style: none;

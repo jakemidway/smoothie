@@ -37,6 +37,7 @@
 @media (max-width: 1008px) {
   .smoothies__fave-cards {
     width: 100%;
+    justify-content: space-around;
   }
 }
 .smoothies__card {
@@ -49,6 +50,18 @@
   align-items: center;
   justify-content: flex-end;
   border: 1px solid #f2612d;
+}
+@media (max-width: 1008px) {
+  .smoothies__card {
+    flex-grow: 1;
+    border: none;
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .smoothies__card {
+    display: none;
+  }
 }
 .smoothies__text-card {
   padding-top: 26px;

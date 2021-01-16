@@ -8,11 +8,18 @@
     color: @main-color;
     display: flex;
     justify-content: flex-start;
+    @media (max-width: 1400px) {
+        flex-direction: column;
+        align-items: center;
+    }
     &__picture{
         position: relative;
         top: 90px;
         width:50%;
         text-align: center;
+        @media (max-width: 1400px) {
+            display: none;
+        }
     }
     &__title{
         font-family: @MuliExtraBold;
@@ -38,6 +45,11 @@
     &__check{
         width: 630px;
         padding: 98px 16px 94px;
+        @media (max-width: 1400px){
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
     }
     &__list{
         list-style: none;

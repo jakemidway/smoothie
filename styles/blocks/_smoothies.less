@@ -33,6 +33,7 @@
         flex-wrap: wrap;
         @media (max-width: 1008px) {
             width: 100%;
+            justify-content: space-around;
         }
     }
     &__card{
@@ -45,6 +46,14 @@
         align-items: center;
         justify-content: flex-end;
         border: 1px solid @accent-color-4;
+        @media (max-width: 1008px){
+            flex-grow: 1;
+            border: none;
+            display: none;
+        }
+        @media (max-width: 500px){
+            display: none;
+        }
     }
     &__text-card{
         padding-top: 26px;
