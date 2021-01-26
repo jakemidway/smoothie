@@ -24,9 +24,25 @@
                     <li class="header__menu-item"><a class="header__menu-link" href="#">Testimonails</a></li>
                 </ul>
             </nav>
-            <button class="header__burger-btn">
-                <img src="./img/menu.png" alt="burger-btn">
-            </button>
+
+
+
+            <!-- <button class="header__burger-btn">
+                <img src="./img/menu.png" alt="burger-btn">     КУСОК КОДА
+            </button> -->
+
+
+
+
+            <div id="burger_icon" class="burger_icon"></div>
+            <div id="burger_menu" class="burger_menu">
+                <div id="close_icon" class="close_icon"></div>
+            </div>
+
+
+
+
+
             <div class="logo">
                 <a class="logo__link" href="#">
                     <img class="logo__picture" src="./img/Logo.png" alt="where is the logo?">
@@ -45,7 +61,9 @@
                     <li class="header__item-personal-bar header__basket">
                         <a class="header__personal-link" href="#"><img class="header__personal-img"
                                 src="img/Cart-icon.png" alt=""></a>
-                        <div class="header__basket-counter"><span class="header__number-counter">0</span></div>
+                        <div class="header__basket-counter">
+                            <span id="cart_count" class="header__number-counter">0</span>
+                        </div>
                     </li>
                 </ul>
 
@@ -161,7 +179,7 @@
 
 
 
-    <section class="products font-text">
+    <section class="products">
 
 
         <div class="products__card products__card_dark">
@@ -210,7 +228,7 @@
 
 
 
-    <section class="story font-text">
+    <section class="story">
 
         <div class="story__foto">
             <img class="story__img" src="img/oneglass.png" alt="one glass smoothie">
@@ -386,4 +404,6 @@
         </div>
     </footer>
 
+
+    <script src="./main.js"></script>
 </body>

@@ -21,8 +21,18 @@
 .footer__column_info {
   margin-right: 146px;
 }
+@media (max-width: 1366px) {
+  .footer__column_info {
+    margin-right: 73px;
+  }
+}
 .footer__column_label {
   margin-right: 166px;
+}
+@media (max-width: 1366px) {
+  .footer__column_label {
+    margin-right: 83px;
+  }
 }
 .footer__column_contacts {
   margin-right: 100px;

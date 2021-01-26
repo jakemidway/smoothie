@@ -13,6 +13,9 @@
         flex-direction: column;
         align-items:center;
         flex-grow: 1;
+        @media (max-width: 880px){
+            width: 50%;
+        }
     }
     &__card_dark{
         background-color: #622d14;
@@ -33,10 +36,19 @@
         font-family: @MuliBold;
         font-size: 2.2rem;
         line-height: 44px;
+        @media (max-width: 1024px){
+            font-size: 1.8rem;
+        }
     }
     &__ml{
         font-size: 1.8rem;
         font-style: italic;
         padding-bottom: 64px;
+        @media (max-width: 1024px){
+            font-size: 1.4rem;
+        }
+    }
+    @media (max-width: 880px){
+        flex-wrap: wrap;
     }
 }

@@ -12,6 +12,11 @@
   align-items: center;
   flex-grow: 1;
 }
+@media (max-width: 880px) {
+  .products__card {
+    width: 50%;
+  }
+}
 .products__card_dark {
   background-color: #622d14;
 }
@@ -32,8 +37,23 @@
   font-size: 2.2rem;
   line-height: 44px;
 }
+@media (max-width: 1024px) {
+  .products__name {
+    font-size: 1.8rem;
+  }
+}
 .products__ml {
   font-size: 1.8rem;
   font-style: italic;
   padding-bottom: 64px;
+}
+@media (max-width: 1024px) {
+  .products__ml {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 880px) {
+  .products {
+    flex-wrap: wrap;
+  }
 }
