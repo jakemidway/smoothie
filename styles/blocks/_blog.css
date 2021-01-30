@@ -47,6 +47,7 @@
 @media (max-width: 768px) {
   .blog__main-elem {
     float: none;
+    width: 100%;
   }
 }
 .blog__img {
@@ -74,6 +75,11 @@
   transform: translateX(-50%);
   border-radius: 7px;
   margin-bottom: 44px;
+}
+@media (max-width: 1266px) {
+  .blog__line {
+    width: 200%;
+  }
 }
 .blog_time {
   font-size: 16px;

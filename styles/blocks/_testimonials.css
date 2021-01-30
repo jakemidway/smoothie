@@ -44,12 +44,28 @@
   align-items: center;
   padding-top: 126px;
 }
+@media (max-width: 775px) {
+  .testimonials__main-block {
+    flex-direction: column-reverse;
+  }
+}
 .testimonials__text {
   width: 524px;
   padding-right: 54px;
   font-size: 18px;
   line-height: 36px;
   text-align: center;
+}
+@media (max-width: 775px) {
+  .testimonials__text {
+    padding: 54px 0 0 0;
+  }
+}
+@media (max-width: 530px) {
+  .testimonials__text {
+    width: 100%;
+    padding: 54px 5px 0;
+  }
 }
 .testimonials__cite {
   color: #f7ae3b;

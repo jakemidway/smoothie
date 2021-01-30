@@ -11,32 +11,30 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
 
         <div class="header__head-top">
             <nav class="header__menu">
                 <ul class="header__menu-list">
                     <li class="header__menu-item"><a class="header__menu-link" href="#">Home</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">Shop</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">story</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">About</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">Blog</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">Testimonails</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#shop">Shop</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#story">story</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#about">About</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#blog">Blog</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#testimonials">Testimonials</a></li>
                 </ul>
             </nav>
 
 
 
-            <!-- <button class="header__burger-btn">
-                <img src="./img/menu.png" alt="burger-btn">     КУСОК КОДА
-            </button> -->
 
 
 
 
-            <div id="burger_icon" class="burger_icon"></div>
-            <div id="burger_menu" class="burger_menu">
-                <div id="close_icon" class="close_icon"></div>
+            <div class="header__burger-icon"></div>
+
+            <div class="header__burger-menu">
+                <div class="header__close-icon"></div>
             </div>
 
 
@@ -149,7 +147,7 @@
 
 
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about__picture">
             <img src="img/two-botle.png" alt="two botle">
         </div>
@@ -179,7 +177,7 @@
 
 
 
-    <section class="products">
+    <section class="products" id="shop">
 
 
         <div class="products__card products__card_dark">
@@ -228,7 +226,7 @@
 
 
 
-    <section class="story">
+    <section class="story" id="story">
 
         <div class="story__foto">
             <img class="story__img" src="img/oneglass.png" alt="one glass smoothie">
@@ -253,7 +251,7 @@
 
 
 
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <!-- добавим моячки  -->
         <h2 class="testimonials__title">Why client <span class="testimonials__uppercase">love</span> us?</h2>
 
@@ -289,7 +287,7 @@
 
 
 
-    <section class="blog">
+    <section class="blog" id="blog">
 
 
         <h2 class="blog__title">Our blog</h2>
@@ -400,7 +398,7 @@
 
         <div class="footer__copyrate">
             <span>© 2020. All Rights Reserved.</span>
-            <button class="footer__btn"><a href="#"><img src="./img/Holder.png" alt="button-up"></a></button>
+            <button class="footer__btn"><a href="#header"><img src="./img/Holder.png" alt="button-up"></a></button>
         </div>
     </footer>
 

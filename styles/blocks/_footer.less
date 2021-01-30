@@ -9,11 +9,18 @@
         padding: 80px 0 90px;
         display: flex;
         justify-content: flex-end;
+        @media (max-width: 1366px){
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
     }
     &__logo{
         position: absolute;
         top: 132px;
         left: 102px;
+        @media (max-width: 1366px){
+            display: none;
+        }
     }
     &__column{
         color: #6d450c;
@@ -21,18 +28,21 @@
         font-size: 1.8rem;
         &_info{
             margin-right: 146px;
-            @media (max-width: 1366px){
+            @media (max-width: 1566px){
                 margin-right: 73px;
             }
         }
         &_label{
             margin-right: 166px;
-            @media (max-width: 1366px){
+            @media (max-width: 1566px){
                 margin-right: 83px;
             }
         }
         &_contacts{
             margin-right: 100px;
+            @media (max-width: 1366px){
+                margin-right: 0;
+            }
         }
     }
     &__title{
@@ -61,6 +71,10 @@
         background-repeat: no-repeat;
         background-position: 5% 50%;
         color: #6d450c;
+        @media (max-width: 500px) {
+            width: 100%;
+            padding-left: 50px;
+        }
     }
     &__follow{
         position: relative;

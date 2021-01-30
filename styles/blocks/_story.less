@@ -10,12 +10,21 @@
     @media (max-width:1365px) {
         flex-direction: row;
     }
+    @media (max-width:891px) {
+        flex-direction: column;
+        padding: 67px 0;
+    }
     &__foto{
         width: 650px;
         padding: 80px 0 160px 65px;
         @media (max-width:1365px) {
             margin-right: 26px;
             padding-top: 120px;
+        }
+        @media (max-width:891px) {
+            padding: 0;
+            margin: 0;
+            width: 100%;
         }
     }
     &__img{
@@ -25,11 +34,18 @@
     }
     &__main{
         width: 650px;
+        @media (max-width: 700px) {
+            width: 100%;
+        }
     }
     &__text{
         line-height: 35px;
         padding: 43px 140px 60px 0;
         font-size: 18px;
+        @media (max-width:891px) {
+            padding: 0;
+            margin: 0;
+        }
     }
     &__title{
         font-family: @MuliExtraBold;
