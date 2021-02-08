@@ -4,74 +4,102 @@
 
 .testimonials{
     position: relative;
-    background-color: #6a2e1b;
+    width: 100%;
+    height: 720px;
+    background-color: #66311d;
+    color: #fff;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: @main-color;
-    padding-top: 115px;
-    padding-bottom: 217px;
-    &::before{
-        display: block;
-        position: absolute;
-        height: 400px;
-        line-height: 400px;
-        text-align: center;
-        font-family: @MuliExtraBold;
-        content: 'Sarah A';
-        color: #5b2310;
-        font-size: 200px;
-        font-weight: 800;
-        left: 20%;
-        word-spacing: -4px;
-        @media (max-width:1024px) {
-            display: none;
-        }
+    // align-items: center;
+    // flex-direction: column;
+    font-size: 1.8rem;
+    padding-top: 117px;
+    @media (max-width: 780px){
+        padding-top: 98px;
     }
     &__title{
+        font-size: 4rem;
         font-family: @MuliExtraBold;
-        color: #f7ae3b;
-        font-size: 50px;
-        font-weight: 800;
+        color: @color-text-testimonials; 
+        padding-bottom: 119px;
+        @media (max-width: 780px){
+            padding-bottom: 59px;
+        }
     }
     &__uppercase{
         text-transform: uppercase;
-        color: #f2612d;
-    }
-    &__main-block{
-        position: relative;
-        display: flex;
-        align-items:center;
-        padding-top: 126px;
-        @media (max-width: 775px) {
-            flex-direction: column-reverse;
-        }
+        color: @color-text-title2;
     }
     &__text{
-        width: 524px;
-        padding-right: 54px;
-        font-size: 18px;
-        line-height: 36px;
-        text-align: center;
-        @media (max-width: 775px) {
-            padding: 54px 0 0 0;
+        position: relative;
+        width: 466px;
+        margin-right: 55px;
+        align-self: center;
+        z-index: 1;
+        @media (max-width: 780px){
+            margin: 0;
         }
-        @media (max-width: 530px) {
-            width: 100%;
-            padding: 54px 5px 0;
+    }
+    &__text-background{
+        position: absolute;
+        top: -132px;
+        left: -190px;
+        font-family: @MuliExtraBold;
+        font-size: 20rem;
+        color: #521905;
+        z-index: -1;
+        width: 800px;
+        @media (max-width: 1133px) {
+            top: -100px;
+            left: 0;
+            font-size: 10rem;
+            width: auto;
+        }
+    }
+    &__blockquote{
+        line-height: 3.5rem;
+    }
+    &__slide{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        width: 100%; 
+        height: 500px;
+        left: 0;
+        background-color: #66311d;
+        text-align: center;
+        transition: all 1s ease-out;
+    }
+    &__main-block{
+        display: flex;
+        justify-content: center;
+        @media (max-width: 780px) {
+            flex-direction: column-reverse;
+            align-items: flex-end;
+        }
+    }
+    &__avat{
+        position: relative;
+        width: 220px;
+        height: 218px;
+        z-index: 5;
+        @media (max-width: 780px) {
+            width: 110px;
+            height: 109px;
         }
     }
     &__cite{
-        color: #f7ae3b;
-    }
-    &__avat{
-        // display: block;  по ходу не нужно. под влексами, строчные ведут себя как блоки
+        color: @color-text-testimonials;
+        line-height: 4.5rem;
     }
     &__button-for-right-and-left{
         position: absolute;
-        bottom: 74px;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 158px;
+        display: flex;
+        justify-content: space-between;
     }
-    &__btn:first-child{
-        margin-right: 96px;
-    }
+
 }
