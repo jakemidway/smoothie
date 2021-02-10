@@ -33,7 +33,60 @@
 
             <div class="header__burger-icon"></div>
 
+
+
             <div class="header__burger-menu">
+                
+                <ul class="header__hidden-personal-bar">
+                    <li class="header__item-personal-bar">
+                        <a class="header__personal-link" href="#"><img class="header__personal-img"
+                                src="img/Search-icon.png" alt="Search"></a>
+                    </li>
+                    <li class="header__item-personal-bar">
+                        <a class="header__personal-link" href="#"><img class="header__personal-img"
+                                src="img/User-icon.png" alt="user"></a>
+                    </li>
+                    <li class="header__item-personal-bar header__basket">
+                        <a class="header__personal-link" href="#"><img class="header__personal-img"
+                                src="img/Cart-icon.png" alt=""></a>
+                        <div class="header__basket-counter">
+                            <span id="cart_count" class="header__number-counter">0</span>
+                        </div>
+                    </li>
+                </ul>
+                
+                <ul class="social social_hidden">
+                    <li class="social__item social__item_header">
+                        <a class="social__link" href="#"><img
+                                class="social__img social__img_header  social-bar__img-facebook" src="img/Facebook.png"
+                                alt="facebook"></a>
+                    </li>
+                    <li class="social__item social__item_header">
+                        <a class="social__link" href="#"><img
+                                class="social__img social__img_header social-bar__img-pinterest" src="img/Pinterest.png"
+                                alt="Pinterest"></a>
+                    </li>
+                    <li class="social__item social__item_header">
+                        <a class="social__link" href="#"><img
+                                class="social__img social__img_header social-bar__img-instagram" src="img/Instagram.png"
+                                alt="Instagram"></a>
+                    </li>
+                </ul>
+
+                
+                <nav class="header__hidden-menu">
+                    <ul class="header__hidden-menu-list">
+                        <li class="header__menu-item"><a class="header__menu-link" href="#">Home</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#shop">Shop</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#story">story</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#about">About</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#blog">Blog</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </nav>
+
+
+
                 <div class="header__close-icon"></div>
             </div>
 
@@ -466,11 +519,15 @@
 
         <div class="footer__copyrate">
             <span>© 2020. All Rights Reserved.</span>
-            <button class="footer__btn"><a href="#header"><img src="./img/Holder.png" alt="button-up"></a></button>
+            <button class="footer__btn" href="#header">
+                <img src="./img/Holder.png" alt="button-up">
+            </button>
         </div>
     </footer>
 
 
     <script src="./main.js"></script>
     <script src="./slider.js"></script>
+    <script src="./goTop.js"></script>
+
 </body>

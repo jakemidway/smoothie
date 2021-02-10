@@ -13,7 +13,7 @@ function burgerMenu() {
 }
 
 function toggleBurgerMenu() {
-    burger_Menu.classList.toggle('burger_menu_active')
+    burger_Menu.classList.toggle('header__burger-menu_active')
     console.log('OK')
 }
 
