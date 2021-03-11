@@ -37,8 +37,7 @@ for(let i = 0; i < buy_buttons.length; i++){
     buy_buttons[i].addEventListener('click', addToCart)  /* addToCart();*/      
 }
 
-                        
-
+console.log(cart_count)
 
 
 

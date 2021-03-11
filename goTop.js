@@ -10,11 +10,9 @@ let scrollHeight = Math.max(
 
 btnGoTop.addEventListener('click', function () {
     window.scrollBy(0, -scrollHeight)
-    console.log(window.scrollY)
 })
 
 window.addEventListener('scroll', function () {
-    console.log(window.scrollY)
     if(window.scrollY > 900 && window.scrollY < scrollHeight){
         btnGoTop.classList.add('footer__btn_fixed')
         btnGoTop.classList.remove('footer__btn')
