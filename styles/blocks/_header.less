@@ -12,13 +12,11 @@
     align-items: center;
     &__head-top{
         width: 1700px;
-        padding: 0 10px;
+        padding: 66px 10px 124px;
         position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 66px;
-        padding-bottom: 124px;
         @media (max-width: 1720px) {
             width: 100%;
         }
@@ -93,7 +91,11 @@
     }
     &__menu-link{
         text-transform: uppercase;
-        font-family: @MuliBold, sans-serif; 
+        font-family: @MuliBold, sans-serif;
+        &:hover{
+            filter: drop-shadow(0 6px 1px @accent-color-2);
+        }
+
     }
     &__head-bar{
         display: flex;
@@ -115,6 +117,9 @@
             background-color: #ffd68f;
             margin: 0 36px 0 0;
         }
+    }
+    &__personal-img:hover{
+        filter: drop-shadow(0 1px 4px @accent-color-2);
     }
     &__item-personal-bar{
         margin-right: 45px;
