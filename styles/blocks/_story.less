@@ -3,6 +3,7 @@
 @import "../_variables.less";
 
 .story{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +53,16 @@
         color: #f7ae3b;
         font-size: 50px;
         font-weight: 800;
+    }
+    &__stamp{
+        position: absolute;
+        top: 140px;
+        right: 40%;
+        @media (max-width: 1368px){
+            top: 20px;
+            right:20px;
+
+        }
     }
 
 }
