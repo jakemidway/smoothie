@@ -117,6 +117,7 @@
         background-color: #f2662f;
         cursor: pointer;
         &::after{
+            display: block;
             position: absolute;
             color: @main-color;
             font-size: 1.6rem;
@@ -134,6 +135,13 @@
             border: none;
             background-color: #f2662f;
             cursor: pointer;
+
+        }
+    }
+    &__label{
+        width: 250px;
+        img{
+            margin: 0 6px 12px 0;
         }
     }
 }

@@ -126,7 +126,8 @@ a {
   display: flex;
 }
 .header__close-icon {
-  right: 0;
+  top: 40px;
+  left: 10px;
   position: absolute;
   width: 50px;
   height: 50px;
@@ -141,6 +142,9 @@ a {
 }
 .header__menu-item {
   margin-right: 42px;
+}
+.header__menu-item_hidden {
+  margin: 0;
 }
 .header__menu-link {
   text-transform: uppercase;
@@ -177,6 +181,9 @@ a {
 }
 .header__item-personal-bar {
   margin-right: 45px;
+}
+.header__item-personal-bar_hidden {
+  margin: 0 20px 20px;
 }
 .header__basket {
   position: relative;
@@ -258,6 +265,9 @@ a {
 }
 .social__img_header {
   filter: invert(1);
+}
+.social_hidden {
+  margin: 0 0 20px;
 }
 .button {
   height: 60px;
@@ -985,6 +995,7 @@ a {
   cursor: pointer;
 }
 .footer__btn::after {
+  display: block;
   position: absolute;
   color: #fff;
   font-size: 1.6rem;
@@ -1002,5 +1013,11 @@ a {
   border: none;
   background-color: #f2662f;
   cursor: pointer;
+}
+.footer__label {
+  width: 250px;
+}
+.footer__label img {
+  margin: 0 6px 12px 0;
 }
 /*# sourceMappingURL=main.css.map */
