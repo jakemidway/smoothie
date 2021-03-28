@@ -293,10 +293,25 @@ a {
   background-color: inherit;
   border: 2px solid #f8b231;
 }
+@media (max-width: 320px) {
+  .button_second {
+    width: auto;
+  }
+}
 .button_nocolor {
   background-color: inherit;
   width: 204px;
   border: 2px solid #fff;
+}
+@media (max-width: 320px) {
+  .button_nocolor {
+    width: auto;
+    height: 40px;
+    padding: 0 40px 0 10px;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-size: 20px;
+  }
 }
 .button__text {
   font-size: 2.1rem;
@@ -481,7 +496,7 @@ a {
   content: '';
   display: block;
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 12px;
   width: 18px;
   height: 18px;
@@ -505,6 +520,11 @@ a {
 @media (max-width: 880px) {
   .products__card {
     width: 50%;
+  }
+}
+@media (max-width: 320px) {
+  .products__card {
+    padding: 64px 0 40px;
   }
 }
 .products__card_dark {
@@ -532,6 +552,12 @@ a {
     font-size: 1.8rem;
   }
 }
+@media (max-width: 320px) {
+  .products__name {
+    text-align: center;
+    line-height: 22px;
+  }
+}
 .products__ml {
   font-size: 1.8rem;
   font-style: italic;
@@ -540,6 +566,11 @@ a {
 @media (max-width: 1024px) {
   .products__ml {
     font-size: 1.4rem;
+  }
+}
+@media (max-width: 320px) {
+  .products__ml {
+    padding-bottom: 32px;
   }
 }
 @media (max-width: 880px) {
@@ -585,6 +616,12 @@ a {
 @media (max-width: 1365px) {
   .story__img {
     height: 400px;
+  }
+}
+@media (max-width: 320px) {
+  .story__img {
+    height: auto;
+    width: 100%;
   }
 }
 .story__main {
@@ -638,6 +675,11 @@ a {
     padding-top: 98px;
   }
 }
+@media (max-width: 320px) {
+  .testimonials {
+    padding-top: 44px;
+  }
+}
 .testimonials__title {
   font-size: 4rem;
   font-family: 'MuliExtraBold';
@@ -665,6 +707,11 @@ a {
     margin: 0;
   }
 }
+@media (max-width: 320px) {
+  .testimonials__text {
+    width: 100%;
+  }
+}
 .testimonials__text-background {
   position: absolute;
   top: -132px;
@@ -681,6 +728,13 @@ a {
     left: 0;
     font-size: 10rem;
     width: auto;
+  }
+}
+@media (max-width: 320px) {
+  .testimonials__text-background {
+    top: -43px;
+    left: 58%;
+    font-size: 3rem;
   }
 }
 .testimonials__blockquote {
@@ -718,6 +772,16 @@ a {
   .testimonials__avat {
     width: 110px;
     height: 109px;
+  }
+}
+@media (max-width: 320px) {
+  .testimonials__avat {
+    position: absolute;
+    top: 103px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
   }
 }
 .testimonials__cite {
