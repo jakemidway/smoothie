@@ -97,7 +97,9 @@
     &__menu-link{
         text-transform: uppercase;
         font-family: @MuliBold, sans-serif;
+        transition: all .2s ease-out;
         &:hover{
+
             filter: drop-shadow(0 6px 1px @accent-color-2);
         }
 
@@ -123,9 +125,13 @@
             margin: 0 36px 0 0;
         }
     }
-    &__personal-img:hover{
-        filter: drop-shadow(0 1px 4px @accent-color-2);
+    &__personal-img{
+        transition: all .2s ease-out;
+        &:hover{
+            filter: drop-shadow(0 1px 4px @accent-color-2);
+        }
     }
+
     &__item-personal-bar{
         margin-right: 45px;
     }
