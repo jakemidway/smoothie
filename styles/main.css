@@ -960,6 +960,11 @@ a {
   font-family: 'MuliBold';
   font-size: 1.8rem;
 }
+@media (max-width: 320px) {
+  .footer__column {
+    margin-bottom: 46px;
+  }
+}
 .footer__column_info {
   margin-right: 146px;
 }
@@ -976,6 +981,11 @@ a {
     margin-right: 83px;
   }
 }
+@media (max-width: 320px) {
+  .footer__column_label {
+    margin-right: 0;
+  }
+}
 .footer__column_contacts {
   margin-right: 100px;
 }
@@ -989,6 +999,11 @@ a {
   font-size: 2.6rem;
   color: #fff;
   margin-bottom: 42px;
+}
+@media (max-width: 1366px) {
+  .footer__title {
+    margin-bottom: 20px;
+  }
 }
 .footer__list-info {
   list-style: none;

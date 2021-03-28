@@ -26,6 +26,9 @@
         color: #6d450c;
         font-family: @MuliBold;
         font-size: 1.8rem;
+        @media (max-width: 320px){
+          margin-bottom: 46px;
+        }
         &_info{
             margin-right: 146px;
             @media (max-width: 1566px){
@@ -36,6 +39,9 @@
             margin-right: 166px;
             @media (max-width: 1566px){
                 margin-right: 83px;
+            }
+            @media (max-width:320px){
+              margin-right: 0;
             }
         }
         &_contacts{
@@ -50,6 +56,9 @@
         font-size: 2.6rem;
         color: @main-color;
         margin-bottom: 42px;
+        @media (max-width: 1366px){
+          margin-bottom: 20px;
+        }
     }
     &__list-info{
         list-style: none;
